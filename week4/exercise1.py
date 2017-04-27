@@ -123,7 +123,7 @@ def wunderground():
          variable and then future access will be easier.
     """
     base = "http://api.wunderground.com/api/"
-    api_key = "YOUR KEY - REGISTER TO GET ONE"
+    api_key = "8be771c04e8eb975"
     country = "AU"
     city = "Sydney"
     template = "{base}/{key}/conditions/q/{country}/{city}.json"
