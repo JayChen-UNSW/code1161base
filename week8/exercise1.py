@@ -109,7 +109,11 @@ def make_filler_text_dictionary():
     TIP: to add an argument to a URL, use: ?argName=argVal e.g. ?len=
     TIP: you'll need the requests library
     """
-    pass
+    import requests
+    url = "http://www.setgetgo.com/randomword/"
+    dictionary = {}
+    for i in range(3, 8):
+        URL = url + s
 
 
 def random_filler_text(number_of_words=200):
